@@ -24,3 +24,11 @@
   line-height: 26px; /* 144.444% */
   text-align: justify;
 }
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #fdba10 !important;
+  border-color: white !important;
+}
