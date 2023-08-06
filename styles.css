@@ -16,7 +16,9 @@ body {
   height: 100px;
   background-color: #c98a40;
   display: flex;
+  flex: wrap;
   align-items: center;
+  border-bottom: 2px solid #584125;
 }
 .logo {
   width: 150px;
