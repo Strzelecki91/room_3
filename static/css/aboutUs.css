@@ -1,0 +1,26 @@
+.body {
+  background-color: #c98a40;
+}
+
+.about-us_header {
+  background-color: #c98a40;
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 144px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 96%; /* 138.24px */
+  text-transform: uppercase;
+}
+
+.about-us_text {
+  background-color: #c98a40;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 144.444% */
+  text-align: justify;
+}
