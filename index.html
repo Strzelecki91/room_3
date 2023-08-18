@@ -17,15 +17,21 @@
   <body>
     <header class="hero">
       <nav class="hero-navigation">
-        <div><img class="logo" src="./static/img/pup.svg" alt="logo" /></div>
+        <div class="button-box">
+          <img class="logo" src="./static/img/pup.svg" alt="logo" />
+
+          <button id="showBtn" class="showBtn">
+            <img class="logo-button" src="./static/img/pup.svg" alt="logo" />
+          </button>
+        </div>
         <div class="navigation-box">
-          <ul class="navigation-list">
+          <ul id="list" class="navigation-list">
             <li class="navigation-list-item">
               <a class="navigation-list-item-link" href="#">home</a>
             </li>
-            <li class="navigation-list-item">
+            <!-- <li class="navigation-list-item">
               <a class="navigation-list-item-link" href="#">how we work</a>
-            </li>
+            </li> -->
             <li class="navigation-list-item">
               <a class="navigation-list-item-link" href="./page/aboutUs.html"
                 >about us</a
@@ -34,9 +40,9 @@
             <li class="navigation-list-item">
               <a class="navigation-list-item-link" href="#">services</a>
             </li>
-            <li class="navigation-list-item">
+            <!-- <li class="navigation-list-item">
               <a class="navigation-list-item-link" href="#">testymonials</a>
-            </li>
+            </li> -->
             <li class="navigation-list-item">
               <a class="navigation-list-item-link" href="#">contact</a>
             </li>
@@ -48,7 +54,36 @@
     <section class="home">
       <div class="home-background">
         <div class="social-box">
-          <img src="./static/img/Group (1).png" alt="backgroud " />
+          <img
+            class="social-img"
+            src="./static/img/Group (1).png"
+            alt="backgroud "
+          />
+          <div class="box-list">
+            <ul class="social-list">
+              <li class="social-list-item">
+                <a class="social-list-item-link" href="#"
+                  ><img src="./static/img/vk.svg" alt="vk"
+                /></a>
+              </li>
+
+              <li class="social-list-item">
+                <a class="social-list-item-link" href="#"
+                  ><img src="./static/img/facebook-rect.svg" alt="facebook"
+                /></a>
+              </li>
+              <li class="social-list-item">
+                <a class="social-list-item-link" href="#"
+                  ><img src="./static/img/instagram-alt.svg" alt="insta"
+                /></a>
+              </li>
+              <li class="social-list-item">
+                <a class="social-list-item-link" href="#"
+                  ><img src="./static/img/twitter.svg" alt="twitter"
+                /></a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="peach-pup">
           <img class="logo-peach" src="./static/img/pup.svg" alt="logo" /><span
@@ -61,17 +96,19 @@
             src="./static/img/logo.png"
             alt="ciepłe bułeczki"
           />
-          <!-- <img
-            class="quality-img"
-            src="./static/img/Star 1.svg"
-            alt="certifcate"
-          /> -->
         </div>
         <div class="quality-box">
           <img
             class="quality-img"
             src="./static/img/Star 1.svg"
             alt="certifcate"
+          />
+        </div>
+        <div class="front-phrase">
+          <img
+            class="front-prhase-img"
+            src="./static/img/Untitled-1.svg"
+            alt="phrase"
           />
         </div>
         <div class="home-describe-box">
@@ -85,7 +122,11 @@
         </div>
       </div>
       <div class="right-places">
-        <img src="./static/img/asd.svg" alt="background with cookies" />
+        <img
+          class="home-background-img"
+          src="./static/img/asd.svg"
+          alt="background with cookies"
+        />
       </div>
     </section>
 
@@ -96,5 +137,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="./static/js/script.js"></script>
   </body>
 </html>
