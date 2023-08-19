@@ -5,6 +5,7 @@
     align-items: center;
     background-color: white;
     padding: 15px;
+    /* height: 100vh; */
   }
   .contact-form-header {
     color: #c98a40;
@@ -105,12 +106,15 @@
   .contact-container {
     width: 100%;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    height: 100vh;
+    text-align: center;
   }
   .contact-form-header {
     color: #c98a40;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
@@ -208,7 +212,7 @@
   }
   .contact-form-header {
     color: #c98a40;
-    font-size: 60px;
+    font-size: 45px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
