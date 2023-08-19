@@ -1,0 +1,71 @@
+/* * {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+} */
+
+.services-header {
+  color: #c98a40;
+  font-family: Sen;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 96%; /* 138.24px */
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* .services-hero-foto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  width: 100%;
+  max-width: 33%;
+} */
+.card {
+  border-radius: 30px;
+  border: 3px solid #ffd8ab;
+  background: #fff;
+}
+.card > img {
+  border-radius: 30px;
+}
+
+.services-button {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.services-button-property {
+  width: 195px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #fdba10;
+  font-size: large;
+}
+
+.services-button-property:hover {
+  background-color: #c98a40;
+}
+
+.row {
+  margin-left: 0px !important;
+}
+.card-text {
+  min-height: 80px;
+  border-radius: 30px;
+  text-align: justify;
+}
+.card-body {
+  border-radius: 30px;
+}
+.first-letter::first-letter {
+  font-size: 150%; /* Możesz dostosować rozmiar litery */
+  font-weight: bold; /* Opcjonalnie, jeśli chcesz pogrubione litery */
+  text-transform: capitalize;
+}
