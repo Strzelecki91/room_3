@@ -1,5 +1,6 @@
 .body {
-  background-color: #c98a40;
+  background-color: #c98a40; 
+  /* background-color: red */
 }
 
 .about-us_header {
@@ -7,7 +8,7 @@
   color: #fff;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 144px;
+  font-size: 10vh;
   font-style: normal;
   font-weight: 800;
   line-height: 96%; /* 138.24px */
