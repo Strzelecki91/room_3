@@ -37,9 +37,14 @@
 .services-button {
   display: flex;
   justify-content: center;
-  padding: 50px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
-
+.button-services-link {
+  text-decoration: none;
+  color: #ad6f28;
+  text-transform: capitalize;
+}
 .services-button-property {
   width: 195px;
   height: 60px;
@@ -68,4 +73,11 @@
   font-size: 150%; /* Możesz dostosować rozmiar litery */
   font-weight: bold; /* Opcjonalnie, jeśli chcesz pogrubione litery */
   text-transform: capitalize;
+}
+
+@media screen and (min-width: 768px) {
+  .container-services {
+    height: 123vh;
+    display: inline-block;
+  }
 }

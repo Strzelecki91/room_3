@@ -9,7 +9,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../static/css/Services.css" />
+    <link rel="stylesheet" href="../static/css/services.css" />
     <link rel="stylesheet" href="../styles.css" />
 
     <title>services</title>
@@ -17,20 +17,30 @@
   <body>
     <header class="hero">
       <nav class="hero-navigation">
-        <div><img class="logo" src="../static/img/pup.svg" alt="logo" /></div>
+        <div class="button-box">
+          <img class="logo" src="../static/img/pup.svg" alt="logo" />
+
+          <button id="showBtn" class="showBtn">
+            <img class="logo-button" src="../static/img/pup.svg" alt="logo" />
+          </button>
+        </div>
         <div class="navigation-box">
-          <ul class="navigation-list">
+          <ul id="list" class="navigation-list">
             <li class="navigation-list-item">
               <a class="navigation-list-item-link" href="../index.html">home</a>
             </li>
+
             <li class="navigation-list-item">
               <a class="navigation-list-item-link" href="../page/aboutUs.html"
                 >about us</a
               >
             </li>
             <li class="navigation-list-item">
-              <a class="navigation-list-item-link" href="#">services</a>
+              <a class="navigation-list-item-link" href="../page/services.html"
+                >services</a
+              >
             </li>
+
             <li class="navigation-list-item">
               <a class="navigation-list-item-link" href="../page/contact.html"
                 >contact</a
@@ -41,81 +51,90 @@
       </nav>
     </header>
 
-    <h1 class="services-header">services</h1>
+    <div class="container-services">
+      <h1 class="services-header">services</h1>
 
-    <div class="row w-100">
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card">
-          <img
-            src="../static/img/Rectangle 1.jpg"
-            class="card-img-top"
-            class="container text-center"
-            alt="Opis zdjęcia"
-          />
+      <div class="row w-100">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img
+              src="../static/img/Rectangle 1.jpg"
+              class="card-img-top"
+              class="container text-center"
+              alt="Opis zdjęcia"
+            />
 
-          <div class="card-body">
-            <h2 class="card-title">cupcakes</h2>
-            <p class="card-text first-letter">
-              cupcake is a sweet praline in the shape of the famous american
-              cupcake. perfectly creamy fillings wrapped in delicious milk
-              chocolate will delight every recipient. an excellent gift idea for
-              any occasion, and also without it, to express your sympathy to
-              your loved ones.
-            </p>
+            <div class="card-body">
+              <h2 class="card-title">cupcakes</h2>
+              <p class="card-text first-letter">
+                cupcake is a sweet praline in the shape of the famous american
+                cupcake. perfectly creamy fillings wrapped in delicious milk
+                chocolate will delight every recipient. an excellent gift idea
+                for any occasion, and also without it, to express your sympathy
+                to your loved ones.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img
+              src="../static/img/Rectangle 2.jpg"
+              class="card-img-top"
+              class="container text-center"
+              alt="Opis zdjęcia"
+            />
+
+            <div class="card-body">
+              <h2 class="card-title">bread</h2>
+              <p class="card-text first-letter">
+                bread - we obtain from baking dough, which is a homogeneous
+                combination of flour and water, subjected to alcoholic
+                fermentation, made into loaves of various shapes and sizes.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img
+              src="../static/img/Rectangle 3.jpg"
+              class="card-img-top"
+              class="container text-center"
+              alt="Opis zdjęcia"
+            />
+
+            <div class="card-body">
+              <h2 class="card-title">rolls</h2>
+              <p class="card-text first-letter">
+                Rolls - wheat, rye or corn. sprinkled with poppy seeds or
+                sesameseeds. They may also contain a sweet filling.
+              </p>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card">
-          <img
-            src="../static/img/Rectangle 2.jpg"
-            class="card-img-top"
-            class="container text-center"
-            alt="Opis zdjęcia"
-          />
-
-          <div class="card-body">
-            <h2 class="card-title">bread</h2>
-            <p class="card-text first-letter">
-              bread - we obtain from baking dough, which is a homogeneous
-              combination of flour and water, subjected to alcoholic
-              fermentation, made into loaves of various shapes and sizes.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card">
-          <img
-            src="../static/img/Rectangle 3.jpg"
-            class="card-img-top"
-            class="container text-center"
-            alt="Opis zdjęcia"
-          />
-
-          <div class="card-body">
-            <h2 class="card-title">rolls</h2>
-            <p class="card-text first-letter">
-              Rolls - wheat, rye or corn. sprinkled with poppy seeds or
-              sesameseeds. They may also contain a sweet filling.
-            </p>
-          </div>
-        </div>
+      <div class="services-button">
+        <button id="button" class="services-button-property">
+          <a class="button-services-link" href="../page/contact.html">
+            contact us</a
+          >
+        </button>
       </div>
     </div>
 
-    <div class="services-button">
-      <button id="button" class="services-button-property">contact us</button>
-    </div>
-
-    <footer id="footer-section" class="footer-section"></footer>
-
+    <footer id="footer-section" class="footer-section">
+      <h2 class="footer-title">Created by:</h2>
+      <p class="team">Kacper, Natalia, Jacek, Artur</p>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="../static/js/script.js"></script>
   </body>
 </html>

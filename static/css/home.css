@@ -90,6 +90,10 @@ button {
   bottom: 20px;
   color: white;
 }
+.home-btn-link {
+  text-decoration: none;
+  color: white;
+}
 .home-btn:hover {
   background-color: #b38207;
   color: #584125;
